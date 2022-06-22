@@ -1,0 +1,44 @@
+body {
+  background: rgb(23, 22, 22);
+  color: white;
+  font-family: sans-serif;
+}
+
+.App {
+  height: 100vh;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat {
+  height: 30em;
+  width: 100%;
+  border: 1px solid #fff;
+  overflow: auto;
+}
+
+.chat p {
+  color: white;
+}
+
+.chat-container .input {
+  width: 80%;
+}
+
+input {
+  color: black;
+  background: white;
+}
